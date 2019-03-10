@@ -1,0 +1,17 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/.jbundler
+.rbenv-var
+/.idea*
+/log/*
+!/log/.keep
+.DS_Store
+*.tags
+# rspec failure tracking
+.rspec_status
