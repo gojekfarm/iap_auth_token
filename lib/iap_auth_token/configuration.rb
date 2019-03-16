@@ -37,18 +37,18 @@ module IapAuthToken
     end
   end
 
-    def self.configuration
-      @configuration ||= initialize_configuration!
-    end
+  def self.configuration
+    @configuration ||= initialize_configuration!
+  end
 
-    def self.configure
-      configuration = self.initialize_configuration!
-      yield(configuration)
-      configuration
-    end
+  def self.configure
+    configuration = self.initialize_configuration!
+    yield(configuration)
+    configuration
+  end
 
-    def self.initialize_configuration!
-      @configuration = Configuration.new
-      @configuration
-    end
+  def self.initialize_configuration!
+    @configuration = Configuration.new
+    @configuration
+  end
 end
