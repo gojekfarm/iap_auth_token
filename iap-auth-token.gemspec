@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'iap_auth_token'
-  s.version     = '0.0.3'
+  s.version     = '0.0.13'
   s.date        = '2010-04-28'
   s.summary     = "Hola!"
   s.description = "A simple hello world gem"
@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/hola'
   s.license       = 'MIT'
+  s.add_development_dependency "rake",      "~> 10.0"
+  s.add_development_dependency "rspec",     "~> 3.0"
 end
