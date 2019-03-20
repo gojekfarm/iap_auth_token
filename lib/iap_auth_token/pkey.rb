@@ -4,7 +4,7 @@ module IapAuthToken
 			begin
 				rsa_private_key = OpenSSL::PKey::RSA.new(private_key_string)
 			rescue
-				raise "Invalid Private Key"
+				raise "Invalid Private Key in service account credentials."
 			end
 			return rsa_private_key
 		end
