@@ -20,8 +20,13 @@ module IapAuthToken
 				exp: exp,
 				iat: iat,
 				target_audience: @target_audience
-	}
-			token = JWT.encode payload, @private_key, ALGORITHM
+			}
+
+			begin
+				token = JWT.encode payload, @private_key, ALGORITHM
+			rescue
+				raise "Unable to create JWT"
+			end
 			return token
 		end
         end
