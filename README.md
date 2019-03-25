@@ -19,7 +19,7 @@ sudo gem install iap_auth_token
 
 Add the following to your Gemfile
 ```
-gem 'jwt'
+gem 'iap_auth_token'
 ```
 And run `bundle install`
 
