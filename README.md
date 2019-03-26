@@ -1,5 +1,7 @@
 # IAP Authenticator
 
+[![Build Status](https://travis-ci.org/gojekfarm/iap_authenticator.svg?branch=master)](https://travis-ci.org/gojekfarm/iap_authenticator)
+
 This gem can be used for service to service authentication using oauth2.0.
 It uses google service account to generate JWT authentication token.
 For more information refer to this link: https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth
