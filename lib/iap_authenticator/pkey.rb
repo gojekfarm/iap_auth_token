@@ -1,4 +1,4 @@
-module IapAuthToken
+module IapAuthenticator
 	class Pkey
 		def self.parse( private_key_string )
 			begin

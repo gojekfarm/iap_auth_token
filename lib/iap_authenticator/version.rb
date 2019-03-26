@@ -1,3 +1,3 @@
-module IapAuthToken
+module IapAuthenticator
   VERSION = '0.1.0'
 end

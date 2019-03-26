@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-RSpec.describe IapAuthToken::Configuration do
+RSpec.describe IapAuthenticator::Configuration do
   let(:client_id) { '456789-jhskasbjsnjan.apps.googleusercontent.com' }
   let(:configuration) {
-      IapAuthToken.configure do |config|
+      IapAuthenticator.configure do |config|
 	    config.client_id = client_id
 	  end
   }

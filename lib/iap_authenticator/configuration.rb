@@ -1,4 +1,4 @@
-module IapAuthToken
+module IapAuthenticator
   class Configuration
     def initialize
       @configuration = OpenStruct.new

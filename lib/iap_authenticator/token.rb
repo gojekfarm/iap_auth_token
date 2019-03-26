@@ -1,4 +1,4 @@
-module IapAuthToken
+module IapAuthenticator
 	class Token
 		TokenURI = "https://www.googleapis.com/oauth2/v4/token"
 		JWTBearerType = "urn:ietf:params:oauth:grant-type:jwt-bearer"

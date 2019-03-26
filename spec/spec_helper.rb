@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "iap_auth_token"
+require "iap_authenticator"
 require "pry"
 require 'webmock/rspec'
 

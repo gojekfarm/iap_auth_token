@@ -1,5 +1,4 @@
-module IapAuthToken
-
+module IapAuthenticator
 	class JWS
 		ALGORITHM = 'RS256'
 
@@ -7,7 +6,7 @@ module IapAuthToken
 			@private_key = private_key
 			@refresh_time_seconds = refresh_time_seconds
 			@iss = iss
-			@aud = IapAuthToken::Token::TokenURI
+			@aud = IapAuthenticator::Token::TokenURI
 			@target_audience = target_audience
 		end
 
@@ -30,5 +29,4 @@ module IapAuthToken
 			return token
 		end
         end
-
 end
