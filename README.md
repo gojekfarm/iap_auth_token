@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/gojekfarm/iap_authenticator.svg?branch=master)](https://travis-ci.org/gojekfarm/iap_authenticator)
 
-This gem can be used for service to service authentication using oauth2.0.
-It uses google service account to generate JWT authentication token.
+This gem can be used to generate signed JWT bearer tokens from Google service account for making authorized service calls.
 For more information refer to this link: https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth
 
 ## prerequisite
@@ -50,3 +49,6 @@ ruby example/snippet.rb
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/gojekfarm/iap_authenticator
+
+## References
+Similar proxy implementation can be found here: https://github.com/gojekfarm/iap_auth
